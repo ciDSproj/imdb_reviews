@@ -72,8 +72,8 @@ The project includes a helper function that:
 4. Returns the predicted sentiment and probability  
 
 - Example custom prediction:
-  - *review = "I loved the movie, the story was very moving."*
-  - *predict_review(review)*
+  - review = "I loved the movie, the story was very moving."
+  - predict_review(review)
   - *Output:* Prediction: positive (0.6324)
 
 
