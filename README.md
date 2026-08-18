@@ -24,10 +24,10 @@ The project uses the **IMDB Movie Reviews** dataset provided by `tensorflow.kera
 - Custom review prediction function for real‑time inference
 
 ## Model Architecture  
-Embedding (input_dim=10000, output_dim=64)
-LSTM (units=64, dropout=0.2, recurrent_dropout=0.2)
-Dense (units=32, activation='relu')
-Dense (units=1, activation='sigmoid')
+- **Embedding** (input_dim=10000, output_dim=64)
+- **LSTM** (units=64, dropout=0.2, recurrent_dropout=0.2)
+- **Dense** (units=32, activation='relu')
+- **Dense** (units=1, activation='sigmoid')
 
 This architecture is designed to capture sequential patterns in text while maintaining generalization through dropout.
 
@@ -71,10 +71,10 @@ The project includes a helper function that:
 3. Pads the sequence to the required length  
 4. Returns the predicted sentiment and probability  
 
-Example:
-review = "I loved the movie, the story was very moving."
-predict_review(review)
-Output: Prediction: positive (0.6324)
+- Example custom prediction:
+  - *review = "I loved the movie, the story was very moving."*
+  - *predict_review(review)*
+  - *Output:* Prediction: positive (0.6324)
 
 
 
