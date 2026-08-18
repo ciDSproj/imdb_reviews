@@ -47,6 +47,11 @@ Training accuracy improves steadily, reaching ~88% on the final epoch.
   - *Probability:* 0.9831
   - *True label:* positive
 
+
+<img width="632" height="232" alt="ml5_training_history" src="https://github.com/user-attachments/assets/aee58231-8c18-4414-ad31-ae0a6f1a64f4" />
+
+
+
 ## Training history plots
 - **Accuracy:** Training accuracy rises from ~0.69 to ~0.88, while validation accuracy increases from ~0.80 to ~0.86. Both 
     curves improve steadily and stay close to each other, indicating good generalization.  
