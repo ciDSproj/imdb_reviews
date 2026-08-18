@@ -56,7 +56,8 @@ Training accuracy improves steadily, reaching ~88% on the final epoch.
 Together, these curves show that the model is learning efficiently and maintaining stable performance on unseen data.
 
 
-<img width="632" height="232" alt="ml5_training_history" src="https://github.com/user-attachments/assets/fb1d9324-dd51-4929-ac37-233513ffa6db" />
+<img width="632" height="232" alt="ml6_training_history" src="https://github.com/user-attachments/assets/fccb522e-b945-4b67-a0ac-52baf4e989b5" />
+
 
 
 
